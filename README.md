@@ -1,14 +1,14 @@
 # over-reacting
 
-## Setup - Quick introduction to webpack and babel
+### Setup - Quick introduction to webpack and babel
 
-### Touch on these topics
+#### Touch on these topics
 
 * Transpiling es6 code to es5
 * Polyfilling missing es6 features
 * Bundling javascript and css files
 
-### TODO
+#### TODO
 
 * Configure babel in package.json
 * Setup webpack.config.js
