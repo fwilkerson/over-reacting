@@ -5,9 +5,9 @@
 #### Touch on these topics
 
 * Components as custom html elements
+* Introduction to Props and prop types
 * Simple reusable functions
-* Accept props just like any other function
-* Introduce prop types
+* Define stateless and stateful components
 
 #### TODO
 
