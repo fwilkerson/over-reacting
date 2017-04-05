@@ -13,5 +13,6 @@
 * Configure babel in package.json
 * Setup webpack.config.js
 * Standup simple node server to host the application
+* start script in package.json
 * Add react entry point (with React.createElement)
 * Introduce JSX
