@@ -2,9 +2,15 @@ import 'babel-polyfill'
 import React from 'react'
 import { render } from 'react-dom'
 
-import Root from './components/Root'
-
 render(
-	<Root />,
+	<div className="container">
+		<div className="row">
+			<div className="eight columns offset-by-two">
+				<h1 className="center">
+					Hello, JSX
+				</h1>
+			</div>
+		</div>
+	</div>,
 	document.getElementById('root')
 )
