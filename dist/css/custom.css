@@ -5,3 +5,28 @@
 h1, h2, h3, h4, h5, h6, p.center {
 	text-align: center;
 }
+
+ul.tabs {
+	list-style: none;
+	border-bottom: 1px solid rgb(209, 209, 209);
+	padding-left: 0.5rem;
+}
+
+ul.tabs li {
+	display: inline;
+}
+
+ul.tabs li::after {
+	content: "\00a0";
+}
+
+ul.tabs li a.button {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-bottom: -1px;
+	border-bottom: none;
+}
+
+ul.tabs li a.active.button {
+	border-bottom: 1px solid #fff;
+}
