@@ -2,7 +2,14 @@
 	margin-top: 2rem;
 }
 
-h1, h2, h3, h4, h5, h6, p.center {
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+h6.center,
+p.center,
+ul.center {
 	text-align: center;
 }
 
